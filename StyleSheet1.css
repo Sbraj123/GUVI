@@ -1,0 +1,28 @@
+﻿body {
+    background-color: lightblue;
+    text-align: justify-all;
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    padding: 25px, 10px;
+    border-radius: 25px;
+    background: linear-gradient(135deg);
+}
+.container form .details{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+@media (max-width:548px) {
+    .container {
+        max-width: 100%;
+    }
+    form .details .card-box {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .details::-webkit-scrollbar {
+        width: 0;
+    }
+}
